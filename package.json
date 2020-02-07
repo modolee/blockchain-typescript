@@ -1,0 +1,20 @@
+{
+  "name": "blockchain-typescript",
+  "version": "1.0.0",
+  "description": "Blockchain made of TypeScript",
+  "main": "index.js",
+  "repository": "https://github.com/modolee/blockchain-typescript.git",
+  "author": "Seongil Lee<modolee.si@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "global": "^4.4.0",
+    "typescript": "^3.7.5"
+  },
+  "scripts": {
+    "build": "tsc",
+    "local": "yarn build && nodemon dist/index.js"
+  }
+}
