@@ -12,6 +12,9 @@
   },
   "scripts": {
     "build": "tsc",
-    "local": "yarn build && node dist/index.js"
+    "local": "tsc-watch --onSuccess \"node dist/index.js\" "
+  },
+  "devDependencies": {
+    "tsc-watch": "^4.1.0"
   }
 }
